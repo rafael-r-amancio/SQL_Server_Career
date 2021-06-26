@@ -1,0 +1,14 @@
+
+SELECT * FROM [TABELA DE PRODUTOS];
+
+-- Resultado em qualquer parte da string
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE '%Litros%';
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE 'Litros%';
+
+-- Like com uso de condicionais (qualquer condicional)
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [NOME DO PRODUTO] LIKE '%Litros%' AND [SABOR] = 'Laranja';
+
+
+-- EXERCICIO
+SELECT * FROM [TABELA DE CLIENTES] WHERE [NOME] LIKE '%Mattos';

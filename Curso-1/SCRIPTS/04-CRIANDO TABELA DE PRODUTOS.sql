@@ -1,0 +1,20 @@
+USE [SUCOS_VENDAS]
+GO
+
+/****** Object:  Table [dbo].[TABELA DE PRODUTOS]    Script Date: 29/04/2021 12:54:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TABELA DE PRODUTOS](
+	[CODIGO DO PRODUTO] [nvarchar](10) NULL,
+	[NOME DO PRODUTO] [nvarchar](50) NULL,
+	[EMBALAGEM] [nvarchar](20) NULL,
+	[TAMANHO] [nvarchar](50) NULL,
+	[SABOR] [nvarchar](20) NULL,
+	[PRECO DE LISTA] [smallmoney] NULL
+) ON [PRIMARY]
+GO
+

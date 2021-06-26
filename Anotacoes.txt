@@ -1,0 +1,37 @@
+
+DBO esquema padrão criado no SQL Server
+Qualquer entidade pode ser representada com  [] e usa quando há caracteres especiais ou espaço
+=====================================================================================================================================
+Tipos de dados:
+-- Numericos
+- Bigint
+- Numeric (numeros com casas decimais fixas)
+- Bit (1 ou 0 / nulo)
+- Smallint
+- Decimal
+- SmallMoney
+- Int
+- TinyInt
+- Money
+
+-- Numericos com ponto flutuante
+- Float
+- Real (menor do que o float)
+
+-- Data e hora
+- Data
+- DateTimeOffset
+- DateTime2
+- Smalldate
+- DateTime
+- Time
+
+-- Caracteres
+- Char, Varchar, Texto
+
+-- Caracteres Unicode
+- nChar, nVarchar, nTexto
+
+-- Binarios
+- Binario, VarBinario
+=====================================================================================================================================

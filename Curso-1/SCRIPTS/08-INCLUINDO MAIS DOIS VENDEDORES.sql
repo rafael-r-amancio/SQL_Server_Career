@@ -1,0 +1,12 @@
+
+INSERT INTO [TABELA DE VENDEDORES]
+(
+	[MATRICULA], [NOME], [PERCENTUAL COMISSAO]
+)
+VALUES
+(
+	'00235', 'Márcio Almeida SIlva', 0.08
+),
+(
+	'00236', 'Cláudia Morais', 0.08 
+);
